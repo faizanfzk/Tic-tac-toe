@@ -66,7 +66,7 @@ export const Tic=()=> {
                 <SquareComponent onClick={() => onUserClicked(8)} state={gameState[8]}/>
             </div>
             <button className="clear-button" onClick={clearGame}>Clear Game</button>
-            <p className="fc-aqua fw-600">MADE FOR FIZW</p>
+            <p className="fc-aqua fw-600">MADE BY FZK</p>
         </div>
     );
 }
